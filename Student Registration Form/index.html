@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./src/index.css">
+	<link href="https://unpkg.com/tailwindcss@^2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+  <div class="mx-auto bg-white">
+    <div class="relative flex flex-wrap items-center justify-between w-full bg-white py-0 shrink-0">
+      <div class="flex space-x-3">
+        <img class="h-12" src="../img/icon.png " alt="">
+      <h1 class="text-2xl font-bold mt-1">Educational Platform</h1>
+    </div>
+      <div class="flex items-center justify-between gap-10 text-black px-3">
+        
+          <a href="#mycourses" class="text-gray-900 hover:bg-gray-500 hover:text-white py-2 px-4 rounded-md" >My Courses</a>
+          <a href="#instructors" class="text-gray-900 hover:bg-gray-500 hover:text-white py-2 px-4 rounded-md">Instructors</a>
+          <a href="#resources" class="text-gray-900 hover:bg-gray-500 hover:text-white py-2 px-4 rounded-md">Resources</a>
+          <a href="#community" class="text-gray-900 hover:bg-gray-500 hover:text-white py-2 px-4 rounded-md">Community</a>  
+      </div>
+      <a href="#Account">
+        <button class="font-medium text-base bg-gray-300 hover:bg-gray-500 py-1 px-4 rounded-md">Account</button>
+      </a>
+    </div>
+
+
+  <div class="flex items-center justify-center min-h-screen">
+    <div class="bg-white p-2 rounded-lg shadow-md max-w-lg w-full">
+      <h2 class="text-2xl font-bold mb-6 text-center text-gray-800">Student Registration</h2>
+      <form>
+        <div class="mb-4">
+          <label class="block text-gray-700 font-bold mb-2" for="name">
+            Full Name
+          </label>
+          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            id="name"
+            type="text"
+            placeholder="Enter your full name"
+          >
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 font-bold mb-2" for="email">
+            Email
+          </label>
+          <input
+            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            id="email"
+            type="email"
+            placeholder="Enter your email"
+          >
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 font-bold mb-2" for="course">
+            Course
+          </label>
+          <select
+            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            id="course"
+          >
+            <option value="">Select a course</option>
+            <option value="Software_Engineering">Software Engineering</option>
+            <option value="Robotics">Robotics</option>
+            <option value="Entrepreneurial">Entrepreneurial</option>
+          </select>
+        </div>
+        <div class="mb-6">
+          <label class="block text-gray-700 font-bold mb-2" for="DOB">
+            Date of Birth
+          </label>
+          <input
+            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            id="DOB"
+            type="date"
+          >
+        </div>
+        <div class="flex items-center justify-between">
+          <button
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            type="button"
+          >
+            Register
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  </div>
+  <footer class="bg-gray-900 text-white py-4 fixed bottom-0 w-screen">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 Educational Platform. All rights reserved.</p>
+    </div>
+  </footer>
+
+	
+	<script src="../js/index.js"></script>
+</body>
+</html>
